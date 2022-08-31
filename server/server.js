@@ -15,7 +15,7 @@ app.get('/css', (req, res) => {
 })
 
 app.get('/js', (req, res) => {
-    req.sendFile(path.join(__dirname, "../client/client.js"))
+    res.sendFile(path.join(__dirname, "../client/client.js"))
 })
 
 const port = process.env.PORT || 4066
