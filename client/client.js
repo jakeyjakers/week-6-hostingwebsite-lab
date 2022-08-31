@@ -4,6 +4,8 @@ const stateInput = document.getElementById('state')
 
 const emaiInput = document.getElementById('email')
 
+const formBtn = document.querySelector('.form-btn')
+
 const message = () => {
     alert(`Are you ready to invest and make some money yet?`)
 }
@@ -29,4 +31,4 @@ const submitForm = (event) => {
     will be with you shortly. Thank You!`)
 }
 
-
+formBtn.addEventListener('click', submitForm)
