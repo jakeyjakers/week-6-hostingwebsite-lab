@@ -1,5 +1,6 @@
 body {
     background: rgba(173, 216, 230, 0.5);
+    position: relative;
 }
 
 header {
@@ -23,6 +24,20 @@ header {
 }
 .brag {
     width: 600px;
-    margin-left: 100px;
+    margin-left: 150px;
     margin-top: 50px;
+}
+.form {
+    background-color: bisque;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: rgba(34, 103, 207, 0.8);
+    border-radius: 3px;
+    position: absolute;
+    left: 150px;
+    top: 250px;
+    padding: 10px;
 }
